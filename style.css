@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    background-color: rgb(124, 211, 240);
+}
+.umhone{
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: 52px;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 50px;
+    border: 2px solid grey;
+}
+.btn{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    margin-top: 10px;
+}
+.umbtn{
+    margin: 7px;
+    margin-bottom: 5px;
+}
+.umbtn1{
+    background-color: rgb(253, 61, 61);
+}
+#todo-item,button{
+    margin-top: 20px;
+}
+.umone{
+    margin-right: 50px;
+}
+.btn{
+    margin: 30px 5px 10px !important;
+}
+@media (max-width: 405px) {
+    .inputone {
+        width: 300px;
+    }
+}
+@media (max-width: 300px) {
+    .inputone {
+        width: 200px;
+    }
+}
